@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin-left: 1rem;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  font-size: calc(2rem + 2vw);
+}
+
+h2 {
+  font-size: 2rem;
+  font-size: calc(1rem + 2vw);
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: calc(2em + 0.1vw);
+}
+
+nav ul {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: yellowgreen;
+  padding: 1em;
+  color: darkblue;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
